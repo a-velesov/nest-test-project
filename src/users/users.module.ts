@@ -1,6 +1,6 @@
 import { Module } from "@nestjs/common";
-import { UsersController } from './users.controller';
-import { UsersService } from './users.service';
+import { UsersController } from "./users.controller";
+import { UsersService } from "./users.service";
 import { SequelizeModule } from "@nestjs/sequelize";
 import { User } from "./users.model";
 
@@ -12,4 +12,5 @@ import { User } from "./users.model";
   ]
 })
 
-export class UsersModule {}
+export class UsersModule {
+}
